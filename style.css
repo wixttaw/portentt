@@ -1,0 +1,582 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&family=PT+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  height: 10vh;
+  font-family: "PT Sans", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
+}
+
+header .right_content {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #969696;
+  text-decoration: none;
+}
+
+main {
+  background-image: url("./images/images/main.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  flex-direction: column;
+  font-family: "PT Sans", sans-serif;
+}
+
+main .block {
+  height: 300px;
+  width: 300px;
+  border: 4px solid #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+main img {
+  margin-bottom: 7px;
+}
+
+main h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  border-top: 2px solid white;
+}
+
+main p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  width: 60%;
+}
+
+.top {
+  height: 550px;
+  display: flex;
+}
+
+.top h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.season2021 {
+  height: 100%;
+  width: 55%;
+  background-color: black;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.hr {
+  width: 120px;
+  background-color: #fff;
+  height: 1px;
+  margin: 30px 0;
+}
+
+.clocks {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  width: calc(33%-60px);
+}
+
+
+
+.clock div {
+  width: 100%;
+  height: 290px;
+  background: rgb(66, 66, 66);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clock1 div {
+    width: 100%;
+    height: 290px;
+    background: rgb(66, 66, 66);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newCollection {
+  height: 100%;
+  width: 45%;
+  background-image: url(./images/images/male.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 80px;
+  background-size: cover;
+}
+
+.newCollection button {
+  background: none;
+  border: 1px solid white;
+  padding: 12px 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+ 
+}
+
+.tok {
+  height: 550px;
+  display: flex;
+}
+
+.collection2018 {
+  height: 100%;
+  width: 45%;
+  display: flex;
+}
+
+.collectionp {
+  height: 100%;
+  width: 55%;
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.collection2018 button {
+  background-color: black;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+    border-color: #fff;      
+  padding: 12px 20px;
+}
+
+.collection2018 {
+  display: flex;
+ 
+  width: 100%;
+}
+
+.collection2018 .left {
+  width: 45%;
+  background-image: url(./images/images/male2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.collection2018 .right {
+  width: 55%;
+  height: 100%;
+}
+
+.collection2018 .right {
+  color: #fff;
+  background-color: black;
+  height: 100%;
+}
+
+.collection2018 .right > div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.collection2018 .right p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  width: 60%;
+  color: #fff;
+  margin-top: 40px;
+}
+
+.collection2018 .right h1 {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.collection2018 .right button {
+  margin-top: 70px;
+  padding: 10px 20px;
+  background: none;
+
+  font-weight: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.newReceipts {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.newReceipts h1 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.watchWrapper {
+  padding: 10px 20px;
+  background-color: #0f0f0f;
+}
+.watchRow {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+
+
+.brands {
+  background-color: #0f0f0f;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.brands h1 {
+  color: #fff;
+  text-transform: uppercase;
+}
+.brands > div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  color: #fff;
+  background-image: url(./images/images/footer.png);
+}
+.footerContainer {
+  display: flex;
+  gap: 20px;
+}
+.footerContainer > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 33%;
+}
+.footerContainer h1 {
+  text-transform: uppercase;
+}
+.footerCategory {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.footerCategory div {
+  background-color: black;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: auto;
+}
+.p {
+  margin-bottom: 30px;
+}
+input[type="email"] {
+  background-color: rgba(219, 208, 208, 0.89);
+  width: 210px;
+  height: 42px;
+  text-align: start;
+  font-style: normal;
+  font-family: 14px;
+  padding: 10px;
+  color: #fff;
+}
+.t {
+  background-color: black;
+  color: #fff;
+  width: 210px;
+  height: 42px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 14px;
+  font-style: normal;
+}
+.z {
+  width: 410px;
+  height: 84px;
+  display: flex;
+}
+.foot {
+  height: 7vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.l {
+  color: #fff;
+  padding-left: 200px;
+}
+.r {
+  color: #fff;
+  padding-right: 200px;
+  text-decoration: underline;
+}
+.menu {
+    display: none;
+} 
+.watchCol { 
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .watchCol p {
+    color: #fff;
+  }
+  .watchCol1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 20px;
+  }
+
+@media (max-width :768px){
+    .menu {
+        display: block;
+        width: 25px;
+
+    }
+    .right_content {
+        display: none!important;
+    }
+    .block {
+        margin-bottom: 30px!important;
+        margin-top: 20px;
+    }
+    main p {
+        padding-bottom: 20px;
+
+    }
+   
+    .season2021 {
+        width: 100%;
+       
+    }
+    .newCollection {
+        width: 100%;
+    }
+    .top {
+        display: block;
+    }
+    .clock {
+        display: none;
+    }
+
+
+    .watchCol {
+        display: none;
+    }
+   .container {
+    display: flex;
+   
+   
+   }
+    .collection2018 {
+        height: fit-content;
+        flex-direction:column ;
+    }
+    .collection2018 .right {
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .collection2018 .left {
+        width: 100%;
+    }
+    .brands > div > div {
+        display: flex;
+        flex-direction: column ;
+    }
+    .footerContainer {
+        flex-direction:column ;
+    }
+    .footerContainer > div {
+        width: 100%;
+    } 
+    .z {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 5px;
+    }
+    .l {
+        padding-left: 0px;
+    }
+    .r {
+        padding-right: 0px;
+    }
+    .foot {
+        justify-content: space-around;
+    }
+    .right_content {
+        display: none!important;
+    }
+  
+
+
+    
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .right_content {
+        width: 70%!important;
+
+    }
+    .z {
+      flex-direction: column;
+      width: 0;
+    }
+    .top {
+      flex-direction: column;
+    }
+    .season2021 {
+      width: 100%;
+    }
+    .newCollection {
+      width: 100%;
+      padding-top: 30px;
+      
+    }
+    .collection2018 {
+      padding-top: 120px;
+    }
+   
+
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    .collection {
+        display: flex;
+        flex-direction: column ;
+        
+
+    }
+    .top {
+        flex-direction: column;
+    }
+    .newCollection {
+        height: 70vh;
+       padding-bottom: 300px;
+        width: 100%;
+    }
+   .season2021 {
+    padding-bottom: 80px;
+    width: 100%;
+   }
+   .collection2018 {
+    margin-top: 345px;
+    
+   }
+   .right {
+    width: 100%!important;
+    background-image: url(./images/images/male2.jpg);
+   }
+   .left {
+    display: none;
+   }
+   .newCollection h1 {
+    padding-top: 130px;
+    align-items: center;
+    justify-content: center;
+   }
+   .brands > div {
+    
+    display: flex;
+    /* flex-direction: column; */
+
+   }
+   .coco {
+    display: flex;
+    margin-right: 40px ;
+    flex-direction: column  ;
+   }
+   .z {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+   }
+   .foot {
+    justify-content: space-around;
+   }
+   * {
+    margin: 0;
+   }
+   
+}
+
+
+
